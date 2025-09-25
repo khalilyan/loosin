@@ -70,7 +70,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Featured.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Featured.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/men"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/men"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -78,7 +78,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Jewelry.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Jewelry.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/men"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/men"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -86,7 +86,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Occasions.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Occasions.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/men"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/men"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -94,7 +94,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Collections.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Collections.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/men"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/men"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -118,7 +118,7 @@ export default function Header() {
                     <h3>{t.navigation.submenuHeaders.Featured.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Featured.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/women"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/women"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -126,7 +126,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Jewelry.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Jewelry.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/women"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/women"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -134,7 +134,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Occasions.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Occasions.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/women"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/women"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
@@ -142,7 +142,7 @@ export default function Header() {
                       <h3>{t.navigation.submenuHeaders.Collections.title}</h3>
                       <div className={styles.submenuLinks}>
                         {t.navigation.submenuHeaders.Collections.subitems.map((item) => (
-                          <Link key={item.href} href={currentLocale+"/shop/women"+item.href}>{item.title}</Link>
+                          <Link key={item.href} href={"/shop/women"+item.href}>{item.title}</Link>
                         ))}
                       </div>
                     </div>
