@@ -1,0 +1,14 @@
+{
+  "menu": {
+    "men": "MEN",
+    "women": "WOMEN",
+    "newIn": "NEW IN",
+    "sale": "SALE",
+    "about": "ABOUT"
+  },
+  "nav": {
+    "search": "Search",
+    "account": "Account",
+    "cart": "Cart"
+  }
+}

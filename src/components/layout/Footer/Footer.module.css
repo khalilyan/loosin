@@ -1,0 +1,125 @@
+.footer {
+  background: var(--background);
+  padding: 50px 0 32px;
+  font-family: 'Inter', sans-serif;
+  border-top: 1px solid var(--gray-medium);
+  margin-top: 120px;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 5rem;
+  font-weight: 100;
+  color: var(--primary);
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.footerNav {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.footerNav a {
+  color: var(--text);
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footerNav a:hover {
+  color: var(--gray-dark);
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.socialLink {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  border: 1px solid var(--gray-medium);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.socialLink:hover {
+  color: var(--primary);
+  border-color: var(--gray-dark);
+  background: rgba(0, 0, 0, 0.02);
+  transform: translateY(-1px);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  border-top: 1px solid var(--gray-medium);
+  color: var(--primary);
+  font-size: 0.75rem;
+}
+
+.contacts {
+  display: flex;
+  gap: 32px;
+}
+
+.contacts a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+.contacts a:hover {
+  color: var(--gray-dark);
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 64px 0 24px;
+    margin-top: 80px;
+  }
+
+  .footerNav {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .contacts {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
